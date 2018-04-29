@@ -1,0 +1,16 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #222;
+  font-family: arial;
+  line-height: 1.5;
+  margin: 0;
+}

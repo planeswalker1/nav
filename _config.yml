@@ -1,0 +1,2 @@
+baseurl: '/nav'
+exclude: ['README.md', '.gitignore']
