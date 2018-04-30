@@ -1,0 +1,16 @@
+.nav__a {
+  border-radius: 10px;
+  color: #2196F3;
+  border: 2px solid #2196F3;
+  padding: 10px 15px;
+}
+
+.nav__a:hover {
+  background-color: #2196F3;
+  color: #fff;
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}

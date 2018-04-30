@@ -4,12 +4,19 @@ title: cool navigation
 ---
 
 <header>
-  <nav>
-    <ul>
-      <li>item 1</li>
-      <li>item 2</li>
-      <li>item 3</li>
-      <li>item 4</li>
+  <nav class="nav">
+    <h1>Dan's Nav</h1>
+    <nav class="nav__responsive">
+      <ul class="responsive__nav">
+        {% include links.html %}
+      </ul>
+    </nav>
+
+    <ul class="nav__nav">
+      {% include links.html %}
     </ul>
+    <div class="nav__menu">
+      <p><span class="text--open">open</span> <span class="text--close hidden">close x</span> </p>
+    </div>
   </nav>
 </header>
